@@ -3,10 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { FC } from "react";
 
-
-
 const Navbar: FC = () => {
-  
   return (
     <div className="flex items-center justify-between bg-gray-700/90 px-4 py-2 h-[88px] max-h-screen w-full">
       {/* Hamburger sinistro */}
@@ -32,27 +29,29 @@ const Navbar: FC = () => {
           </div>
         </Link>
 
-
-        <div className="relative w-[45px] h-[45px]">
-          <Image
-            src="/HeaderDog2.png"
-            alt="Cane"
-            fill
-            className="object-contain"
-          />
-        </div>
-
-      <Link href="/incontri">
-        <div className="relative w-[45px] h-[45px]">
-          <Image
-            src="/HeaderHeart.png"
-            alt="Cuore"
-            fill
-            className="object-contain"
-          />
-        </div>
+        <Link href="/registro">
+          <div className="relative w-[45px] h-[45px]">
+            <Image
+              src="/HeaderDog2.png"
+              alt="Cane"
+              fill
+              className="object-contain"
+            />
+          </div>
         </Link>
 
+        <Link href="/incontri">
+          <div className="relative w-[45px] h-[45px]">
+            <Image
+              src="/HeaderHeart.png"
+              alt="Cuore"
+              fill
+              className="object-contain"
+            />
+          </div>
+        </Link>
+
+ <Link href="/scheda">
         <div className="relative w-[45px] h-[45px]">
           <Image
             src="/HeaderNote.webp"
@@ -61,7 +60,9 @@ const Navbar: FC = () => {
             className="object-contain"
           />
         </div>
+        </Link>
 
+        
       </div>
     </div>
   );
