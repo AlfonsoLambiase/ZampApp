@@ -9,7 +9,7 @@ const Navbar: FC = () => {
       {/* Hamburger sinistro */}
       <div className="w-[40px] h-[40px] flex-shrink-0 relative">
         <Image
-          src="/HeaderHamburger.png"
+          src="/Navbar/HeaderHamburger.png"
           alt="HamnurgerMenu"
           fill
           className="object-contain"
@@ -21,7 +21,7 @@ const Navbar: FC = () => {
         <Link href="/">
           <div className="relative w-[40px] h-[40px]">
             <Image
-              src="/HeaderHouse.png"
+              src="/Navbar/HeaderHouse.png"
               alt="Casa"
               fill
               className="object-contain"
@@ -32,7 +32,7 @@ const Navbar: FC = () => {
         <Link href="/registro">
           <div className="relative w-[45px] h-[45px]">
             <Image
-              src="/HeaderDog2.png"
+              src="/Navbar/HeaderDog2.png"
               alt="Cane"
               fill
               className="object-contain"
@@ -43,7 +43,7 @@ const Navbar: FC = () => {
         <Link href="/incontri">
           <div className="relative w-[45px] h-[45px]">
             <Image
-              src="/HeaderHeart.png"
+              src="/Navbar/HeaderHeart.png"
               alt="Cuore"
               fill
               className="object-contain"
@@ -54,7 +54,7 @@ const Navbar: FC = () => {
  <Link href="/scheda">
         <div className="relative w-[45px] h-[45px]">
           <Image
-            src="/HeaderNote.webp"
+            src="/Navbar/HeaderNote.webp"
             alt="Nota"
             fill
             className="object-contain"

@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="relative min-h-screen w-full">
       <Image
-        src="/SfondoHome.jpg"
+        src="/Sfondi/SfondoHome.jpg"
         alt="Sfondo Home"
         fill
         className="object-cover"
